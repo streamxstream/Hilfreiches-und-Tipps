@@ -1,0 +1,25 @@
+Kodiversionen parallel auf einem System installieren (z.B. Kodi18 neben Kodi17, oder Kodi18 neben Kodi19 alpha):
+
+Für Android hat sich ein User die Mühe gemacht, den Paketnamen der aktuellen Leia Testversionen, so zu ändern, dass dies möglicht ist
+
+Er aktualisiert diese Versionen auch regelmäßig (so ca. alle 2-4 Tage)
+
+Download (modifizierter) Android Kodi18 Version: https://www.dropbox.com/sh/gzm82sztlkjyv8j/AAA0oT4at62d0eaw4kD4Epbva?dl=0
+
+Auch für Windows ist es möglich 2 Kodi Version glechzeitig zu installieren. Leider gibt es hier keine fertigen Versionen, sondern nur eine Anleitung (englisch) wie man vorgehen muss
+
+
+Diese Methode habe ich selsbt noch nicht getestete
+
+
+Methode 1:
+Am einfachsten wäre es die aktuelle 17.6 aus dem Windows Store zu installieren, dann kann man die Leia Alpha einfach normal aufs System installieren und sie laufen parallel
+
+
+Methode2:
+Man kann auch unter Windows 2 oder mehr Versionen parallel installieren
+
+
+Das nennt man portable mode:
+
+http://kodi.wiki/view/Windows_FAQ#Portable_mode
