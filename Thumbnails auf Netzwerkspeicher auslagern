@@ -1,0 +1,18 @@
+Thumbnails auf Netzwerkspeicher auslagern
+
+Der Thumbnail-Ordner von Kodi kann gerne mal sehr groß werden... was gerade auf dem FireTV-Stick z.B. sehr nerven kann.
+
+Es ist möglich diesen Ordner wie folgt in der advancedsettings.xml auf Netzlaufwerk mit SMB auszulagern und somit den Speicher am Stick einzusparen:
+
+<pathsubstitution>
+  <substitute>
+    <from>special://masterprofile/Thumbnails/</from>
+    <to>smb://USER:PASSWORD@IP ODER HOSTNAME/PFAD/PFAD</to>
+  </substitute>
+</pathsubstitution>
+
+Danach kann der Ordner Thumbnails auf dem Stick gelöscht oder auf den Netzwerkspeicher kopiert werden
+(wenn er nicht kopiert wird legt Kodi die Thumbnails neu auf dem Netzwerkspeicher an)
+
+Dies spart einem nebenei auch recht viel Zeit bzgl. Backup und Wiederherstellen.
+Je nach Auslagerungsgerät ist aber mit Verzögerungen zu rechnen beim Anzeigen der Thumnails
